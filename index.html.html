@@ -1,0 +1,237 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>Museo de Louvre</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">Museo de Louvre</a>
+          <a href="#secc2">Festival</a>
+          <a href="#secc3">Ponentes</a>
+          <a href="#secc4">Libros</a>
+          <a href="#secc5">Audiovisual</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Museo de Louvre</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El Museo de Louvre está situado en el corazón de París, a las orillas del río Sena este museo Es el más grande de arte, es famoso y es visitado a través de muchas personas alrededor del mundo. Su origen se remonta al siglo XII Cuando comenzó como una fortaleza medieval destinada a proteger a la ciudad para poder convertirse en majestuoso Palacio Real de la dinastía francesa. Y no fue hasta 1793 que en la plena revolución francesa pudo abrir sus puertas al público como un museo nacional.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Entre las miles de maravillas universales que alberga el museo destaca por custodiar algunas de las piezas más influyentes de la historia de la humanidad. Estas sobresalen la icónica mona lisa de Leonardo da Vinci como una de las tantas.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->	
+    				<a href="360visualizar.html" style="display: inline-block; width: 50%;">	
+	        		<img src="imagenes/img1a.png" title="Img 1a"style="width: 100%;">
+	        		</a>
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>Da una vuelta 360 para mejor experiencia visual y asi conocer todo el entorno.</p>
+	        		<!--texto para imagen a la derecha-->
+	        		<p>Así se ve el Museo de Louvre una tarde tranquila y linda.</p>
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+    				<a href="360visualizar.html" style="display: inline-block; width: 50%;">
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        	</a>
+	        		<!--texto para la imagen-->
+	        		<p>Da una vuelta 360 para mejor experiencia visual y asi conocer todo el entorno.</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+	        		<!--texto para la imagen-->
+	        		<p>Así se ve el Museo de Louvre una tarde tranquila y linda.</p>
+    			</div>
+    		</div>
+    		</div>
+<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<br>
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Festival</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Te invitamos a ser parte de esta gran experiencia cultural que está integrada, diseñada para poder conectar a las ideas, la literatura y el propio lenguaje visual de nuestro propio festival. Además, contaremos con una cuidada Selección de presentaciones de libros, permitiendo al público descubrir nuevas obras, interactuar con autores y poder profundizar en la riqueza de las propias letras. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El evento integrará una muestra audiovisual que explorará la fuerza de la imagen en el movimiento y la propia narrativa digital, esto a través de la proyección de contenidos creativos y piezas documentales. La jornada ofrecerá una mirada envolvente donde las palabras habladas y la escritura y el arte visual se entrelazan entre sí. Esperamos este sábado a las 7:40 H de la noche.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img5.png" title="Img 5">
+        		<!--texto para la imagen-->
+    		</div>
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Ponentes</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El festival será el punto de reunión de 6 destacados historiadores, pensadores e investigadores internacionales que cuestionan la narrativa oficial para poder analizar la geopolítica, el poder global y la identidad cultural desde diferentes perspectivas críticas. En el ámbito de la estructura de poder y las finanzas continentales, el propio investigador español Jorge Guerra explorará las redes de élite y el poder oculto a través de su obra la gran nobleza negra, mientras que la memoria histórica del historiador británico Antony Sutton revelará cómo la alta finanza y las transferencias tecnológicas internacionales influyeron decisivamente en el surgimiento del modelo soviético.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El pensamiento hispanoamericano y el desarrollo de los Estados será abordado por la perspectiva analítica del sociólogo argentino Marcelo Gullo. El gran historiador mexicano Juan Miguel Zunzunegui, cuyo trabajo es desmontar los mitos históricos para superar los traumas colectivos y construir una identidad crítica a través de la geopolítica mundial. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Y finalmente, terminaríamos con la revisión histórica y las dinámicas estratégicas que se completan con Guillermo más Arellano es un analista que reivindica la Hispanidad, el combate a la leyenda negra y examina la raíz tradicional de la filosófica cultura española, junto al profesor Jiang Xueqin quién aplica la teoría de juegos y el legalismo clásico para poder descifrar el futuro de las potencias mundiales y la inteligencia artificial dentro el colapso de la globalización armónica. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="Img 2">
+        		<!--texto para la imagen-->
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Libros</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El programa editorial del festival reúne 5 obras fundamentales que desvelan la dinámica del control social y la manipulación del pensamiento, junto con la arquitectura del poder global y en el ámbito de las distopías literarias, la psicología colectiva, la narrativa y mucho más.George Orwell abre con la narrativa. Advierte sobre el totalismo, la censura sistemática y la anulación del pensamiento crítico mediante el uso de la neolengua y la reestructura de la historia. A esta visión se le suma un mundo feliz, de Aldous Huxley, quien examina el sometimiento social mediante la fuerza. También mientras el Tratado clínico The Rape of the mind de Joost Merloo profundiza en menticidio detallado como el miedo sostenido, la saturación informativa y los reflejos condicionados que pueden quebrar la autonomía mental de la sociedad modernas.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Por última parte, en la sección de ensayos geopolíticos de la persuasión pública se exponen los mecanismos reales que operan tras el orden internacional de las masas. John Perkins. Aporta un testimonio directo sobre el neoclasicismo financiero, revelando cómo la manipulación de deudas y la prisión corporativa y la intervención encubierta que han sido utilizadas para subordinar los recursos nacionales. Y finalmente llegamos con Edward Bernays, que analiza el psicoanálisis freudiano con la psicología de masas para poder explicar la persuasión afectiva y la manipulación consciente de los deseos inconscientes, y también se convierte en el motor invisible de las democracias de consumo moderno y actual.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc5">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Audiovisual</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>En la muestra audiovisual del propio festival se reúnen las 3 producciones cinematográficas y documentales que exploran la alegoría política y la desmitificación institucional, junto con la arquitectura del sistema financiero global. La selección abre con Land of the Blind del 2006, esta es una sátira Política oscura y escrita y dirigida por Robert Edwards y protagonizada por Ralph Fiennes y Donald Sutherland. Esta obra fue inspirada por la experiencia del propio director de inteligencia militar y en los ciclos históricos de la revolución fallida. En la cinta se aborda la paradoja del poder en un nuevo régimen revolucionario y termina replicando la misma brutalidad y el fanatismo del despotismo caído.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La muestra documental examina los fenómenos de comunicación de masas y la economía moderna a través de las piezas emblemáticas. Zeitgeist, Es una obra independiente creada por Peter Joseph, quien se convirtió en el fenómeno viral de insignia con la contracultura digital de los años 2000. Los orígenes mitológicos de la religión, los acontecimientos del 11 de septiembre y la emisión de deuda de la Reserva Federal Fue la cuestión de la estructura social con el control de ellos. Finalmente, The Money Masters, dirigida por Bill Still y Patrick S. J. Karmak, ofrece un minucioso análisis de más de 3 horas sobre cómo la historia del dinero fiduciario y la banca de reservas fraccionaria con el monopolio de los bancos centrales, invitando al espectador a reflexionar sobre la soberanía económica y el propio origen de las crisis financieras contemporáneas. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img4.png" title="Img 4">
+        		<!--texto para la imagen-->
+        		<p>«El arte no es un espejo para reflejar la realidad, sino un martillo para darle forma.»
+
+— Bertolt Brecht</p>
+<br>
+    		</div>
+    	</div>
+ <div class='seccion-contenedor' id="secc-trailers" style="text-align: center;">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Trailers</h1>
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<a href="https://youtube.com/playlist?list=PLNwfh_NhoDHE&si=s8_r-0PpBvOXunwj"style="display: inline-block;">
+
+        		<img  src="imagenes/img6.jpg" title="Img 6" style="max-width: 750px; width: 100%: height: auto: display: block; margin: 0 auto;">
+        	</a>
+        </div>
+</div>
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">Todos los derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>

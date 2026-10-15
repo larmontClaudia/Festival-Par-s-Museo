@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Visor 360 - Museo de Louvre</title>
+    <!-- Carga de la librería A-Frame -->
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+</head>
+<body>
+
+    <!-- Escena 360° -->
+    <a-scene>
+        <!-- Declaración del recurso / imagen 360 -->
+        <a-assets>
+            <!-- Sustituye la URL de src por el enlace directo de tu foto 360 subida a internet -->
+            <img id="MySky" crossorigin src="https://i.postimg.cc/nhX1dfLy/Museo-del-Louvre-Street-View-360-(1).jpg">
+        </a-assets>
+
+        <!-- Esfera 360 que muestra la imagen -->
+        <a-sky src="#MySky"></a-sky>
+    </a-scene>
+
+</body>
+</html>
